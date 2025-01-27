@@ -261,7 +261,7 @@ def show_recent_logs(message):
         response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @WynkMusicRobot ❄."
         bot.reply_to(message, response)
 
-# New function to periodically send the "Bot is active" message every 60 minutes
+# New function to periodically send the "Bot is active" message every 55 minutes
 def send_periodic_message():
     while True:
         for user_id in allowed_user_ids:
@@ -271,7 +271,7 @@ def send_periodic_message():
 ❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥@WynkMusicRobot⏤͟͟͞͞★🕊️''')
             except Exception as e:
                 print(f"Failed to send message to {user_id}: {e}")
-        time.sleep(3600)  # Wait 60 minutes before sending the message again
+        time.sleep(3300)  # Wait 55 minutes before sending the message again
 
 # Start the periodic message in a separate thread
 threading.Thread(target=send_periodic_message).start()
