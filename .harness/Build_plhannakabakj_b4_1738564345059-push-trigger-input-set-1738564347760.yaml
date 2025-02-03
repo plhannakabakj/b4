@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_plhannakabakj_b4_1738564345059-push-trigger-input-set
+  identifier: Build_plhannakabakj_b4_1738564345059pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_plhannakabakj_b4_1738564345059
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
