@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_plhannakabakj_b4_1738564345059-pr-trigger-input-set
+  identifier: Build_plhannakabakj_b4_1738564345059prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_plhannakabakj_b4_1738564345059
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
