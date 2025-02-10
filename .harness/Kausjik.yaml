@@ -1,0 +1,6 @@
+environment:
+  name: Kausjik
+  identifier: Kausjik
+  orgIdentifier: default
+  projectIdentifier: default_project
+  type: Production
